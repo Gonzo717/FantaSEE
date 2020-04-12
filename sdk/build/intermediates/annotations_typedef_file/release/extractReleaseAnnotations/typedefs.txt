@@ -1,0 +1,2 @@
+D com/google/cardboard/qrcode/camera/CameraSource$FlashMode
+D com/google/cardboard/qrcode/camera/CameraSource$FocusMode

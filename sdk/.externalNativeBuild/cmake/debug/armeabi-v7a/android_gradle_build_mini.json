@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/lyu/Desktop/FantaSEE/sdk/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "cardboard_api-Debug-armeabi-v7a": {
+      "artifactName": "cardboard_api",
+      "buildCommand": "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/armeabi-v7a --target cardboard_api",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/debug/obj/armeabi-v7a/libcardboard_api.so"
+    },
+    "cardboard_v1_jni-Debug-armeabi-v7a": {
+      "artifactName": "cardboard_v1_jni",
+      "buildCommand": "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/armeabi-v7a --target cardboard_v1_jni",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/debug/obj/armeabi-v7a/libcardboard_v1_jni.so"
+    },
+    "cardboard_device_proto-Debug-armeabi-v7a": {
+      "artifactName": "cardboard_device_proto",
+      "buildCommand": "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/armeabi-v7a --target cardboard_device_proto",
+      "abi": "armeabi-v7a",
+      "output": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/debug/obj/armeabi-v7a/libcardboard_device_proto.so"
+    }
+  }
+}

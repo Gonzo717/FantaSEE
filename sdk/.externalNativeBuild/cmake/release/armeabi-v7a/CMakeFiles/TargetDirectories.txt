@@ -1,0 +1,5 @@
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/cardboard_api.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/cardboard_v1_jni.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/cardboard_device_proto.dir

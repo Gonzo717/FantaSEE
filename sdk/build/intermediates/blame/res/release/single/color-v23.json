@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/color-v23/design_tint_password_toggle.xml"
+    }
+]

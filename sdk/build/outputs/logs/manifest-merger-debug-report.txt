@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+	package
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:1-40:12
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:2:11-69
+uses-feature#0x00030002
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:5:5-78
+	android:glEsVersion
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:5:19-51
+	android:required
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:5:52-75
+uses-permission#android.permission.CAMERA
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.NFC
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:9:5-61
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:9:22-59
+application
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:12:5-39:19
+	android:supportsRtl
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:14:9-45
+	android:allowBackup
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:18:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:17:9-44
+activity#com.google.cardboard.QrCodeCaptureActivity
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:19:9-23:39
+	android:label
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:21:13-67
+	android:exported
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:23:13-37
+	android:theme
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:22:13-63
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:20:13-70
+activity#com.google.cardboard.HeadsetDetectionActivity
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:27:9-38:20
+	android:label
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:29:13-69
+	android:exported
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:28:13-73
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:scheme:cardboard
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:33:13-37:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:34:25-74
+category#android.intent.category.DEFAULT
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:35:17-76
+	android:name
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:35:27-73
+data
+ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:36:17-52
+	android:scheme
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:36:23-49
+uses-sdk
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+		ADDED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+		INJECTED from /Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
