@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/values-fa/values-fa.xml",
+            "outputFile": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/39f69614c92d15212049ccadce162e2b/res/values-fa/values.xml",
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "outputFile": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fa/values-fa.xml",
+            "outputFile": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/39f69614c92d15212049ccadce162e2b/res/values-fa/values.xml",

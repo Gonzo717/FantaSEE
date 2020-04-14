@@ -4,7 +4,7 @@
             "outputFile": "/Users/lyu/Desktop/FantaSEE/fantasee/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
             "map": [
                 {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/e6cc78971f3e859457ba9901fe261e42/res/values-v19/values.xml",
+                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/a8b01a525418c919dcc5cc9d3cd2046a/sdk-common-1.80.0/res/values-v19/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

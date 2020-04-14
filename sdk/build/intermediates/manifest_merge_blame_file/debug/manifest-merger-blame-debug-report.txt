@@ -1,0 +1,89 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.cardboard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:5:5-78
+12        android:glEsVersion="0x00030002"
+12-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:5:19-51
+13        android:required="true" />
+13-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:5:52-75
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:6:5-65
+15-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:6:22-62
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:7:5-81
+16-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:8:5-67
+17-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.NFC" />
+18-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:9:5-61
+18-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:9:22-59
+19
+20    <application
+20-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:12:5-39:19
+21        android:allowBackup="true"
+21-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:13:9-35
+22        android:icon="@drawable/ic_launcher"
+22-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:14:9-45
+23        android:label="@string/app_name"
+23-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:15:9-41
+24        android:supportsRtl="true"
+24-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:16:9-35
+25        android:theme="@style/AppTheme"
+25-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:18:9-40
+26        android:usesCleartextTraffic="true" >
+26-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:17:9-44
+27        <activity
+27-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:19:9-23:39
+28            android:name="com.google.cardboard.QrCodeCaptureActivity"
+28-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:20:13-70
+29            android:exported="false"
+29-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:23:13-37
+30            android:label="@string/title_activity_qr_code_capture"
+30-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:21:13-67
+31            android:theme="@style/Theme.AppCompat.NoActionBar" />
+31-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:22:13-63
+32
+33        <!--
+34          Activity whose sole purpose is to update cardboard params when a Cardboard V1 NFC tag
+35          is detected.
+36        -->
+37        <activity
+37-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:27:9-38:20
+38            android:name="com.google.cardboard.HeadsetDetectionActivity"
+38-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:28:13-73
+39            android:exported="true"
+39-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:30:13-36
+40            android:label="@string/headset_detection_activity_title" >
+40-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:29:13-69
+41
+42            <!-- Handles the Cardboard V1 nfc tag released at I/O 2014. -->
+43            <intent-filter>
+43-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:33:13-37:29
+44                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+44-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:34:17-77
+44-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:34:25-74
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:35:17-76
+46-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:35:27-73
+47
+48                <data android:scheme="cardboard" />
+48-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:36:17-52
+48-->/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/AndroidManifest.xml:36:23-49
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

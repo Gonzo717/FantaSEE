@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim-v21/design_bottom_sheet_slide_out.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/anim-v21/design_bottom_sheet_slide_out.xml"
     }
 ]

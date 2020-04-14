@@ -1,0 +1,5 @@
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/cardboard_api.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/cardboard_v1_jni.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/cardboard_device_proto.dir

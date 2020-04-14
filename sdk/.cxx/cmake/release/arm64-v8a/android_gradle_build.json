@@ -1,0 +1,212 @@
+
+{
+	"buildFiles" : [ "/Users/lyu/Desktop/FantaSEE/sdk/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"cardboard_api-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "cardboard_api",
+			"buildCommand" : "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a --target cardboard_api",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/cardboard.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/distortion_mesh.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/distortion_renderer.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/head_tracker.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/lens_distortion.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/polynomial_radial_distortion.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/gyroscope_bias_estimator.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/lowpass_filter.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/mean_filter.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/median_filter.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/neck_model.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/pose_prediction.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/sensor_fusion_ekf.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/android/device_accelerometer_sensor.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/android/device_gyroscope_sensor.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/sensors/android/sensor_event_producer.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/util/matrix_3x3.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/util/matrix_4x4.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/util/matrixutils.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/util/rotation.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/util/vectorutils.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/qr_code.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_api_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/screen_params/android/screen_params.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/release/obj/arm64-v8a/libcardboard_api.so",
+			"toolchain" : "9833002125019231277"
+		},
+		"cardboard_device_proto-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "cardboard_device_proto",
+			"buildCommand" : "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a --target cardboard_device_proto",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_device_proto_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/proto/cardboard_device.pb.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/release/obj/arm64-v8a/libcardboard_device_proto.so",
+			"toolchain" : "9833002125019231277"
+		},
+		"cardboard_v1_jni-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "cardboard_v1_jni",
+			"buildCommand" : "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a --target cardboard_v1_jni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_v1_jni_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/qrcode/android/jni/qrcode_jni.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_v1_jni_EXPORTS -I../../../../. -I/Users/lyu/Desktop/FantaSEE/proto -I/Users/lyu/Desktop/FantaSEE/proto/libprotobuf/android/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/sdk/qrcode/cardboard_v1/cardboard_v1.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/sdk/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/release/obj/arm64-v8a/libcardboard_v1_jni.so",
+			"toolchain" : "9833002125019231277"
+		}
+	},
+	"toolchains" : 
+	{
+		"9833002125019231277" : 
+		{
+			"cCompilerExecutable" : "/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

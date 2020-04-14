@@ -1,0 +1,50 @@
+
+{
+	"buildFiles" : [ "/Users/lyu/Desktop/FantaSEE/fantasee/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/fantasee/.cxx/cmake/release/arm64-v8a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"cardboard_jni-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "cardboard_jni",
+			"buildCommand" : "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/fantasee/.cxx/cmake/release/arm64-v8a --target cardboard_jni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_jni_EXPORTS -I../../../../libraries  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/fantasee/src/main/jni/hello_cardboard_app.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/fantasee/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_jni_EXPORTS -I../../../../libraries  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/fantasee/src/main/jni/hello_cardboard_jni.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/fantasee/.cxx/cmake/release/arm64-v8a"
+				},
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dcardboard_jni_EXPORTS -I../../../../libraries  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "/Users/lyu/Desktop/FantaSEE/fantasee/src/main/jni/util.cc",
+					"workingDirectory" : "/Users/lyu/Desktop/FantaSEE/fantasee/.cxx/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "/Users/lyu/Desktop/FantaSEE/fantasee/build/intermediates/cmake/release/obj/arm64-v8a/libcardboard_jni.so",
+			"toolchain" : "9833002125019231277"
+		}
+	},
+	"toolchains" : 
+	{
+		"9833002125019231277" : 
+		{
+			"cCompilerExecutable" : "/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/lyu/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
