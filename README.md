@@ -9,3 +9,4 @@ In Android Studio, go to Preferences > Appearance and Behavior > System Settings
 - Before building the app, run Gradle > sdk > Tasks > Build > assemble first, I guess it is used to assemble the NDK
 
 # Bug
+- App won't run on emulator, must use physical device to test!
