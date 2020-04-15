@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.cardboard.test" >
+4
+5    <uses-sdk
+5-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:5:5-74
+6        android:minSdkVersion="21"
+6-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:11:5-15:75
+10        android:name="android.support.test.runner.AndroidJUnitRunner"
+10-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:11:22-83
+11        android:functionalTest="false"
+11-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:13:22-53
+13        android:label="Tests for com.google.cardboard.test"
+13-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:15:22-73
+14        android:targetPackage="com.google.cardboard.test" />
+14-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:12:22-71
+15
+16    <uses-feature
+16-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:35
+17        android:glEsVersion="0x00030002"
+17-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-41
+18        android:required="true" />
+18-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-32
+19
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:5-65
+20-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:22-62
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:5-81
+21-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:22-78
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:5-67
+22-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:22-64
+23    <uses-permission android:name="android.permission.NFC" />
+23-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-62
+23-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-59
+24
+25    <application
+25-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:7:5-9:19
+26        android:allowBackup="true"
+26-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:9-35
+27        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+27-->[com.android.support:support-compat:28.0.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+28        android:debuggable="true"
+28-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:7:18-43
+29        android:icon="@drawable/ic_launcher"
+29-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-45
+30        android:label="@string/app_name"
+30-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:9-41
+31        android:supportsRtl="true"
+31-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:24:9-35
+32        android:theme="@style/AppTheme"
+32-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:25:9-40
+33        android:usesCleartextTraffic="true" >
+33-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:26:9-44
+34        <uses-library android:name="android.test.runner" />
+34-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:8:9-60
+34-->/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/tmp/manifest/androidTest/debug/manifestMerger259777136890082693.xml:8:23-57
+35
+36        <activity
+36-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:66
+37            android:name="com.google.cardboard.QrCodeCaptureActivity"
+37-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-70
+38            android:exported="false"
+38-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-37
+39            android:label="@string/title_activity_qr_code_capture"
+39-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-67
+40            android:theme="@style/Theme.AppCompat.NoActionBar" />
+40-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-63
+41        <!--
+42          Activity whose sole purpose is to update cardboard params when a Cardboard V1 NFC tag
+43          is detected.
+44        -->
+45        <activity
+45-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-50:20
+46            android:name="com.google.cardboard.HeadsetDetectionActivity"
+46-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-73
+47            android:exported="true"
+47-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-36
+48            android:label="@string/headset_detection_activity_title" >
+48-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-69
+49
+50            <!-- Handles the Cardboard V1 nfc tag released at I/O 2014. -->
+51            <intent-filter>
+51-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-49:29
+52                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+52-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-77
+52-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:25-74
+53
+54                <category android:name="android.intent.category.DEFAULT" />
+54-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-76
+54-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:27-73
+55
+56                <data android:scheme="cardboard" />
+56-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-52
+56-->[__tested_artifact__::sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:23-49
+57            </intent-filter>
+58        </activity>
+59        <activity
+59-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+60            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+60-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+61            android:exported="false"
+61-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+62            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+62-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+63
+64        <meta-data
+64-->[com.google.android.gms:play-services-basement:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/5a3be19da79cfdbef19a70568cadebea/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+65            android:name="com.google.android.gms.version"
+65-->[com.google.android.gms:play-services-basement:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/5a3be19da79cfdbef19a70568cadebea/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+66            android:value="@integer/google_play_services_version" />
+66-->[com.google.android.gms:play-services-basement:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/5a3be19da79cfdbef19a70568cadebea/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+67        <meta-data
+67-->[com.android.support:support-v4:26.1.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/8b2410946284cd4775e5f8b775d72d89/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+68            android:name="android.support.VERSION"
+68-->[com.android.support:support-v4:26.1.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/8b2410946284cd4775e5f8b775d72d89/support-v4-26.1.0/AndroidManifest.xml:27:13-51
+69            android:value="26.1.0" />
+69-->[com.android.support:support-v4:26.1.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/8b2410946284cd4775e5f8b775d72d89/support-v4-26.1.0/AndroidManifest.xml:28:13-35
+70    </application>
+71
+72</manifest>

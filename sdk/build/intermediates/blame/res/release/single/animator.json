@@ -1,38 +1,38 @@
 [
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/mtrl_btn_state_list_anim.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_btn_state_list_anim.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_transformation_sheet_collapse_spec.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_show_motion_spec.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_show_motion_spec.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_fab_show_motion_spec.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/mtrl_chip_state_list_anim.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_chip_state_list_anim.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/mtrl_btn_state_list_anim.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_btn_state_list_anim.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_hide_motion_spec.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_hide_motion_spec.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_fab_hide_motion_spec.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_transformation_sheet_expand_spec.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/mtrl_chip_state_list_anim.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_chip_state_list_anim.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_transformation_sheet_expand_spec.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_fab_transformation_sheet_expand_spec.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/mtrl_btn_unelevated_state_list_anim.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_btn_unelevated_state_list_anim.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/design_fab_show_motion_spec.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/design_fab_show_motion_spec.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/design_fab_show_motion_spec.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/design_fab_hide_motion_spec.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/design_fab_hide_motion_spec.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/mtrl_btn_unelevated_state_list_anim.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_btn_unelevated_state_list_anim.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/animator/mtrl_fab_transformation_sheet_collapse_spec.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/animator/design_fab_hide_motion_spec.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/animator/design_fab_hide_motion_spec.xml"
     }
 ]

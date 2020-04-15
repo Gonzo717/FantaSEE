@@ -1,0 +1,150 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.google.cardboard.hellocardboard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:5:5-78
+12        android:glEsVersion="0x00030002"
+12-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:5:19-51
+13        android:required="true" />
+13-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:5:52-75
+14    <uses-feature
+14-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:6:5-97
+15        android:name="android.hardware.sensor.accelerometer"
+15-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:6:19-71
+16        android:required="true" />
+16-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:6:72-95
+17    <uses-feature
+17-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:7:5-93
+18        android:name="android.hardware.sensor.gyroscope"
+18-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:7:19-67
+19        android:required="true" />
+19-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:7:68-91
+20
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:8:5-65
+21-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:8:22-62
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+22-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:9:5-80
+22-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:9:22-77
+23    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+23-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:10:5-81
+23-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:10:22-78
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:11:5-67
+24-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:11:22-64
+25    <uses-permission android:name="android.permission.NFC" /> <!-- android:icon="@drawable/ic_launcher" -->
+25-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:5-62
+25-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:22-59
+26    <application
+26-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:15:5-32:19
+27        android:allowBackup="true"
+27-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:16:9-35
+28        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+28-->[com.android.support:support-compat:28.0.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+29        android:debuggable="true"
+30        android:icon="@drawable/ic_launcher"
+30-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:9-45
+31        android:label="@string/app_name"
+31-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:17:9-41
+32        android:supportsRtl="true"
+32-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:18:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme"
+34-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:20:9-40
+35        android:usesCleartextTraffic="true" >
+35-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:19:9-44
+36        <activity
+36-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:21:9-31:20
+37            android:name="pkg.myapp.MainActivity"
+37-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:22:13-50
+38            android:exported="true"
+38-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:26:13-36
+39            android:label="title_activity_vr"
+39-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:23:13-46
+40            android:screenOrientation="landscape"
+40-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:25:13-50
+41            android:theme="@style/Theme.AppCompat.NoActionBar" >
+41-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:24:13-63
+42            <intent-filter>
+42-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:27:13-30:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:28:17-69
+43-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:28:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:29:17-77
+45-->/Users/lyu/Desktop/FantaSEE/fantasee/src/main/AndroidManifest.xml:29:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:9-31:66
+49            android:name="com.google.cardboard.QrCodeCaptureActivity"
+49-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:28:13-70
+50            android:exported="false"
+50-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:13-37
+51            android:label="@string/title_activity_qr_code_capture"
+51-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-67
+52            android:theme="@style/Theme.AppCompat.NoActionBar" />
+52-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-63
+53        <!--
+54          Activity whose sole purpose is to update cardboard params when a Cardboard V1 NFC tag
+55          is detected.
+56        -->
+57        <activity
+57-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:9-50:20
+58            android:name="com.google.cardboard.HeadsetDetectionActivity"
+58-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-73
+59            android:exported="true"
+59-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-36
+60            android:label="@string/headset_detection_activity_title" >
+60-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-69
+61
+62            <!-- Handles the Cardboard V1 nfc tag released at I/O 2014. -->
+63            <intent-filter>
+63-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:43:13-49:29
+64                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+64-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:17-77
+64-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:44:25-74
+65
+66                <category android:name="android.intent.category.DEFAULT" />
+66-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:17-76
+66-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:46:27-73
+67
+68                <data android:scheme="cardboard" />
+68-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:17-52
+68-->[:sdk] /Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/library_manifest/debug/AndroidManifest.xml:48:23-49
+69            </intent-filter>
+70        </activity>
+71        <activity
+71-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:23:9-26:75
+72            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+72-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:24:13-79
+73            android:exported="false"
+73-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:25:13-37
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+74-->[com.google.android.gms:play-services-base:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/AndroidManifest.xml:26:13-72
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/5a3be19da79cfdbef19a70568cadebea/play-services-basement-15.0.1/AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/5a3be19da79cfdbef19a70568cadebea/play-services-basement-15.0.1/AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:15.0.1] /Users/lyu/.gradle/caches/transforms-2/files-2.1/5a3be19da79cfdbef19a70568cadebea/play-services-basement-15.0.1/AndroidManifest.xml:25:13-66
+79        <meta-data
+79-->[com.android.support:support-v4:26.1.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/8b2410946284cd4775e5f8b775d72d89/support-v4-26.1.0/AndroidManifest.xml:26:9-28:38
+80            android:name="android.support.VERSION"
+80-->[com.android.support:support-v4:26.1.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/8b2410946284cd4775e5f8b775d72d89/support-v4-26.1.0/AndroidManifest.xml:27:13-51
+81            android:value="26.1.0" />
+81-->[com.android.support:support-v4:26.1.0] /Users/lyu/.gradle/caches/transforms-2/files-2.1/8b2410946284cd4775e5f8b775d72d89/support-v4-26.1.0/AndroidManifest.xml:28:13-35
+82    </application>
+83
+84</manifest>

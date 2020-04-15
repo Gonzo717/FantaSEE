@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color color_accent
+color color_primary
+color color_primary_dark
+color darker_gray
+color footer_light_grey
+color footer_medium_grey
+drawable ic_launcher
+drawable qr_sample
+drawable tick_marks
+id footer
+id preview
+id skip
+layout qr_code_capture
+string app_name
+string cannot_find_symbol
+string connection_error
+string headset_detection_activity_title
+string invalid_qr_code
+string low_storage_error
+string no_permissions
+string reading_qr_code_instructions
+string skip_scanning
+string title_activity_qr_code_capture
+string viewer_detected
+style AppTheme
+style text_14sp_sans_serif_medium
+style text_16sp_sans_serif
+style vertical_divider

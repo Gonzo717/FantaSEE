@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/values-sw600dp-v13/values-sw600dp-v13.xml",
@@ -35,7 +35,7 @@
             ]
         },
         {
-            "outputFile": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/values-sw600dp-v13/values-sw600dp-v13.xml",

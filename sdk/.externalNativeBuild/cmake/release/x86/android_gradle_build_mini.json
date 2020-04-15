@@ -1,0 +1,28 @@
+{
+  "buildFiles": [
+    "/Users/lyu/Desktop/FantaSEE/sdk/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86 --target clean"
+  ],
+  "libraries": {
+    "cardboard_api-Release-x86": {
+      "artifactName": "cardboard_api",
+      "buildCommand": "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86 --target cardboard_api",
+      "abi": "x86",
+      "output": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/release/obj/x86/libcardboard_api.so"
+    },
+    "cardboard_device_proto-Release-x86": {
+      "artifactName": "cardboard_device_proto",
+      "buildCommand": "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86 --target cardboard_device_proto",
+      "abi": "x86",
+      "output": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/release/obj/x86/libcardboard_device_proto.so"
+    },
+    "cardboard_v1_jni-Release-x86": {
+      "artifactName": "cardboard_v1_jni",
+      "buildCommand": "/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86 --target cardboard_v1_jni",
+      "abi": "x86",
+      "output": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/cmake/release/obj/x86/libcardboard_v1_jni.so"
+    }
+  }
+}

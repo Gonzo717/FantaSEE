@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_slow_in.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_linear_in.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/interpolator-v21/mtrl_linear_out_slow_in.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
     }
 ]

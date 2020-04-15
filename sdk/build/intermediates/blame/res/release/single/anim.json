@@ -1,58 +1,58 @@
 [
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_tooltip_enter.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_slide_in_top.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_tooltip_exit.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
         "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/lyu/Desktop/cardboard/sdk/build/intermediates/res/merged/release/anim/abc_tooltip_exit.xml",
-        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_tooltip_exit.xml"
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/8b3dd4d791b1143f6e6725521d6c7a60/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_tooltip_enter.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/lyu/Desktop/FantaSEE/sdk/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/fe2ee9d238db7e81f21cbfa017d27936/res/anim/abc_grow_fade_in_from_bottom.xml"
     }
 ]

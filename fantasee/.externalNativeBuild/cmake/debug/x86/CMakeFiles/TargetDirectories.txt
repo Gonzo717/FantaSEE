@@ -1,0 +1,3 @@
+/Users/lyu/Desktop/FantaSEE/fantasee/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/lyu/Desktop/FantaSEE/fantasee/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/lyu/Desktop/FantaSEE/fantasee/.externalNativeBuild/cmake/debug/x86/CMakeFiles/cardboard_jni.dir
