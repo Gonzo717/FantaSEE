@@ -21,5 +21,5 @@
     string in this file.
     -->
     <!-- Credential HERE -->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC_g8OZXDXShSD4Vla-oY73xUir6HzWgKI</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyDnYBoPTQShRbkIopkAefxssQy_dsUzZD8</string>
 </resources>

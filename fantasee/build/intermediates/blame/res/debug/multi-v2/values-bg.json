@@ -4,41 +4,7 @@
             "outputFile": "/Users/lyu/Desktop/FantaSEE/fantasee/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
             "map": [
                 {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/5a3be19da79cfdbef19a70568cadebea/play-services-basement-15.0.1/res/values-bg/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "196",
-                        "endOffsets": "443"
-                    },
-                    "to": {
-                        "startLines": "39",
-                        "startColumns": "4",
-                        "startOffsets": "4228",
-                        "endColumns": "196",
-                        "endOffsets": "4420"
-                    }
-                },
-                {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/res/values-bg/values-bg.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "68",
-                        "startColumns": "4",
-                        "startOffsets": "8240",
-                        "endColumns": "100",
-                        "endOffsets": "8336"
-                    }
-                },
-                {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/61130cdc2a52e3256cba8ec0fb3904a5/play-services-base-15.0.1/res/values-bg/values.xml",
+                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/77c2fc448e2bd0738fd67dce062b1efd/play-services-base-17.0.0/res/values-bg/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/7f5f0b3369d8fa8a72a20e2278ec0acc/appcompat-v7-28.0.0/res/values-bg/values-bg.xml",
+                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/values-bg/values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "68",
+                        "startColumns": "4",
+                        "startOffsets": "8240",
+                        "endColumns": "100",
+                        "endOffsets": "8336"
+                    }
+                },
+                {
+                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/7df26908078c74ff4eeaf46e7b6b476c/appcompat-1.0.0/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -86,6 +69,23 @@
                         "startOffsets": "2847,2942,5816,5903,6020,6217,6369,6454,6564,6678,6794,6887,7126,7347,7452,7561,7672,7807,8055,8159,8341,8426",
                         "endColumns": "94,77,86,116,196,151,84,109,113,115,92,238,220,104,108,110,134,164,103,80,84,102",
                         "endOffsets": "2937,3015,5898,6015,6212,6364,6449,6559,6673,6789,6882,7121,7342,7447,7556,7667,7802,7967,8154,8235,8421,8524"
+                    }
+                },
+                {
+                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/c59d436c7951846cc9d2103712e2e096/jetified-play-services-basement-17.0.0/res/values-bg/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "196",
+                        "endOffsets": "443"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4228",
+                        "endColumns": "196",
+                        "endOffsets": "4420"
                     }
                 }
             ]

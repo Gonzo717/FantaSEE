@@ -18,7 +18,7 @@ package com.google.cardboard.qrcode;
 import android.content.Context;
 import android.net.Uri;
 import android.os.AsyncTask;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
 import com.google.android.gms.vision.barcode.Barcode;
