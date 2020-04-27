@@ -39,22 +39,22 @@ public final class R {
 
         public static final int back_button = 0x7f090021;
         public static final int control_layout = 0x7f090035;
-        public static final int divider = 0x7f090048;
-        public static final int fullscreen_back_button = 0x7f090058;
-        public static final int fullscreen_button = 0x7f090059;
-        public static final int info_button = 0x7f090067;
-        public static final int transition_bottom_frame = 0x7f0900d6;
-        public static final int transition_frame = 0x7f0900d8;
-        public static final int transition_icon = 0x7f0900d9;
-        public static final int transition_question_text = 0x7f0900dc;
-        public static final int transition_switch_action = 0x7f0900de;
-        public static final int transition_text = 0x7f0900df;
-        public static final int transition_top_frame = 0x7f0900e0;
-        public static final int ui_alignment_marker = 0x7f0900e2;
-        public static final int ui_back_button = 0x7f0900e3;
-        public static final int ui_settings_button = 0x7f0900e5;
-        public static final int vr_mode_button = 0x7f0900ee;
-        public static final int vrwidget_inner_view = 0x7f0900ef;
+        public static final int divider = 0x7f090044;
+        public static final int fullscreen_back_button = 0x7f090054;
+        public static final int fullscreen_button = 0x7f090055;
+        public static final int info_button = 0x7f090063;
+        public static final int transition_bottom_frame = 0x7f0900d2;
+        public static final int transition_frame = 0x7f0900d4;
+        public static final int transition_icon = 0x7f0900d5;
+        public static final int transition_question_text = 0x7f0900d8;
+        public static final int transition_switch_action = 0x7f0900da;
+        public static final int transition_text = 0x7f0900db;
+        public static final int transition_top_frame = 0x7f0900dc;
+        public static final int ui_alignment_marker = 0x7f0900de;
+        public static final int ui_back_button = 0x7f0900df;
+        public static final int ui_settings_button = 0x7f0900e1;
+        public static final int vr_mode_button = 0x7f0900ea;
+        public static final int vrwidget_inner_view = 0x7f0900eb;
     }
     public static final class layout {
         private layout() {}

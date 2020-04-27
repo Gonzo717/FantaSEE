@@ -36,6 +36,7 @@ import com.google.android.gms.maps.GoogleMap.OnMyLocationClickListener;
 import com.google.android.gms.maps.OnMapReadyCallback;
 
 import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -63,7 +64,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.animation.BounceInterpolator;
 import android.view.animation.Interpolator;
+import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
@@ -107,48 +110,28 @@ public class MapsActivity extends AppCompatActivity
 
         // These are both viewgroups containing an ImageView with id "badge" and two TextViews with id
         // "title" and "snippet".
-        private final View mWindow;
 
         private final View mContents;
 
         CustomInfoWindowAdapter() {
-            mWindow = getLayoutInflater().inflate(R.layout.custom_info_window, null);
             mContents = getLayoutInflater().inflate(R.layout.custom_info_contents, null);
         }
 
         // render info window on this marker
         @Override
         public View getInfoWindow(Marker marker) {
-            if (mOptions.getCheckedRadioButtonId() != R.id.custom_info_window) {
-                // This means that getInfoContents will be called.
                 return null;
-            }
-            render(marker, mWindow);
-            return mWindow;
         }
 
         // render info contents on this marker
         @Override
         public View getInfoContents(Marker marker) {
-            if (mOptions.getCheckedRadioButtonId() != R.id.custom_info_contents) {
-                // This means that the default info contents will be used.
-                return null;
-            }
             render(marker, mContents);
             return mContents;
         }
 
 
         private void render(Marker marker, View view) {
-            int badge;
-            // Use the equals() method on a Marker to check for equals.  Do not use ==.
-            if (marker.equals(mBrisbane)) {
-                badge = R.drawable.badge_qld;
-            } else {
-                // Passing 0 to setImageResource will clear the image view.
-                badge = 0;
-            }
-            ((ImageView) view.findViewById(R.id.badge)).setImageResource(badge);
 
             String title = marker.getTitle();
             TextView titleUi = ((TextView) view.findViewById(R.id.title));
@@ -188,9 +171,7 @@ public class MapsActivity extends AppCompatActivity
 
     private GoogleMap mMap;
 
-    private Marker mPerth;
     private Marker mBrisbane;
-    private Marker mAdelaide;
 
     /**
      * Keeps track of the last selected marker (though it may no longer be selected).  This is
@@ -198,23 +179,19 @@ public class MapsActivity extends AppCompatActivity
      */
     private Marker mLastSelectedMarker;
 
-    private final List<Marker> mMarkerRainbow = new ArrayList<Marker>();
+    private final List<Marker> mMarkerList = new ArrayList<Marker>();
 
     private TextView mTopText;
 
+    // used to input comments on pictures;
+    //private EditText edtSnippet;
+
     private SeekBar mRotationBar;
 
-    private CheckBox mFlatBox;
+    private Button btnViewInVR;
 
-    private RadioGroup mOptions;
-
-    private final Random mRandom = new Random();
-
-    private static final LatLng ADELAIDE = new LatLng(-34.92873, 138.59995);
     private static final LatLng BRISBANE = new LatLng(-27.47093, 153.0235);
-    private static final LatLng DARWIN = new LatLng(-12.425892, 130.86327);
-    private static final LatLng PERTH = new LatLng(-31.952854, 115.857342);
-    private static final LatLng SYDNEY = new LatLng(-33.87365, 151.20689);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -225,25 +202,25 @@ public class MapsActivity extends AppCompatActivity
         mRotationBar.setMax(360);
         mRotationBar.setOnSeekBarChangeListener(this);
 
-        mFlatBox = (CheckBox) findViewById(R.id.flat);
-
-        mOptions = (RadioGroup) findViewById(R.id.custom_info_window_options);
-        mOptions.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                if (mLastSelectedMarker != null && mLastSelectedMarker.isInfoWindowShown()) {
-                    // Refresh the info window when the info window's content has changed.
-                    mLastSelectedMarker.showInfoWindow();
-                }
-            }
-        });
 
 
         SupportMapFragment mapFragment =
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
 //        mapFragment.getMapAsync(this);
         new OnMapAndViewReadyListener(mapFragment, this);
+        btnViewInVR = (Button) findViewById(R.id.btnViewInVR);
+        btnViewInVR.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                viewInVR(view);
+            }
+        });
+    }
 
+    public void viewInVR(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("filename", mLastSelectedMarker.getTitle()+".jpg");
+        startActivity(intent);
     }
 
     @Override
@@ -278,17 +255,6 @@ public class MapsActivity extends AppCompatActivity
     private void addMarkersToMap() {
         AssetManager assetManager = getAssets();
         // Uses a colored icon.
-//        mBrisbane = mMap.addMarker(new MarkerOptions()
-//                .position(BRISBANE)
-//                .title("Brisbane")
-//                .snippet("Population: 2,074,200")
-//                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_AZURE)));
-//        // Creates a draggable marker. Long press to drag.
-//        mMelbourne = mMap.addMarker(new MarkerOptions()
-//                .position(MELBOURNE)
-//                .title("Melbourne")
-//                .snippet("Population: 4,137,400")
-//                .draggable(true));
 
         // Uses a custom icon with the info window popping out of the center of the icon.
         try {
@@ -296,56 +262,18 @@ public class MapsActivity extends AppCompatActivity
 
             mBrisbane = mMap.addMarker(new MarkerOptions()
                 .position(BRISBANE)
-                .title("Brisbane")
+                .title("CQC")
                 .snippet("Data: 2018/07/17")
                 .icon(BitmapDescriptorFactory.fromBitmap(ThumbnailUtils.extractThumbnail(BitmapFactory.decodeStream(is),100,100)))
-                .infoWindowAnchor(5f, 5f));
+                .infoWindowAnchor(0.5f, 0.5f));
         } catch (Exception e) {
             Log.e("Map ", e.toString());
         }
-//        Place four markers on top of each other with differing z-indexes.
-//        mDarwin1 = mMap.addMarker(new MarkerOptions()
-//                .position(DARWIN)
-//                .title("Darwin Marker 1")
-//                .snippet("z-index 1")
-//                .zIndex(1));
-//        mDarwin2 = mMap.addMarker(new MarkerOptions()
-//                .position(DARWIN)
-//                .title("Darwin Marker 2")
-//                .snippet("z-index 2")
-//                .zIndex(2));
-//        mDarwin3 = mMap.addMarker(new MarkerOptions()
-//                .position(DARWIN)
-//                .title("Darwin Marker 3")
-//                .snippet("z-index 3")
-//                .zIndex(3));
-//        mDarwin4 = mMap.addMarker(new MarkerOptions()
-//                .position(DARWIN)
-//                .title("Darwin Marker 4")
-//                .snippet("z-index 4")
-//                .zIndex(4));
 
-
-//        // A few more markers for good measure.
-//        mPerth = mMap.addMarker(new MarkerOptions()
-//                .position(PERTH)
-//                .title("Perth")
-//                .snippet("Population: 1,738,800"));
-//        mAdelaide = mMap.addMarker(new MarkerOptions()
-//                .position(ADELAIDE)
-//                .title("Adelaide")
-//                .snippet("Population: 1,213,000"));
-
-//        // Vector drawable resource as a marker icon.
-//        mMap.addMarker(new MarkerOptions()
-//                .position(ALICE_SPRINGS)
-//                .icon(vectorToBitmap(R.drawable.ic_android, Color.parseColor("#A4C639")))
-//                .title("Alice Springs"));
 
         // Creates a marker rainbow demonstrating how to create default marker icons of different
         // hues (colors).
         float rotation = mRotationBar.getProgress();
-        boolean flat = mFlatBox.isChecked();
 
 //        int numMarkersInRainbow = 12;
 //        for (int i = 0; i < numMarkersInRainbow; i++) {
@@ -390,10 +318,6 @@ public class MapsActivity extends AppCompatActivity
         if (!checkReady()) {
             return;
         }
-        boolean flat = mFlatBox.isChecked();
-        for (Marker marker : mMarkerRainbow) {
-            marker.setFlat(flat);
-        }
     }
 
 
@@ -403,9 +327,9 @@ public class MapsActivity extends AppCompatActivity
             return;
         }
         float rotation = seekBar.getProgress();
-        for (Marker marker : mMarkerRainbow) {
-            marker.setRotation(rotation);
-        }
+//        for (Marker marker : mMarkerRainbow) {
+//            marker.setRotation(rotation);
+//        }
     }
 
     @Override
@@ -423,7 +347,7 @@ public class MapsActivity extends AppCompatActivity
 
     @Override
     public boolean onMarkerClick(final Marker marker) {
-        if (marker.equals(mPerth)) {
+        if (marker.equals(mBrisbane)) {
             // This causes the marker at Perth to bounce into position when it is clicked.
             final Handler handler = new Handler();
             final long start = SystemClock.uptimeMillis();
@@ -445,17 +369,8 @@ public class MapsActivity extends AppCompatActivity
                     }
                 }
             });
-        } else if (marker.equals(mAdelaide)) {
-            // This causes the marker at Adelaide to change color and alpha.
-            marker.setIcon(BitmapDescriptorFactory.defaultMarker(mRandom.nextFloat() * 360));
-            marker.setAlpha(mRandom.nextFloat());
         }
 
-        // Markers have a z-index that is settable and gettable.
-        float zIndex = marker.getZIndex() + 1.0f;
-        marker.setZIndex(zIndex);
-        Toast.makeText(this, marker.getTitle() + " z-index set to " + zIndex,
-                Toast.LENGTH_SHORT).show();
 
         mLastSelectedMarker = marker;
         // We return false to indicate that we have not consumed the event and that we wish
@@ -466,7 +381,7 @@ public class MapsActivity extends AppCompatActivity
 
     @Override
     public void onInfoWindowClick(Marker marker) {
-        Toast.makeText(this, "Click Info Window", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "Click Info Window", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -476,7 +391,8 @@ public class MapsActivity extends AppCompatActivity
 
     @Override
     public void onInfoWindowLongClick(Marker marker) {
-        Toast.makeText(this, "Info Window long click", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "Info Window long click", Toast.LENGTH_SHORT).show();
+//        marker.setSnippet(edtSnippet.getText().toString());
     }
 
     @Override
@@ -493,10 +409,6 @@ public class MapsActivity extends AppCompatActivity
     public void onMarkerDrag(Marker marker) {
         mTopText.setText("onMarkerDrag.  Current Position: " + marker.getPosition());
     }
-
-
-
-
 
 
 

@@ -1158,7 +1158,7 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button
+id btnViewInVR
 id buttonPanel
 id center
 id center_horizontal
@@ -1176,13 +1176,9 @@ id control_layout
 id coordinator
 id custom
 id customPanel
-id custom_info_contents
-id custom_info_window
-id custom_info_window_options
 id dark
 id decor_content_parent
 id default_activity_button
-id default_info_window
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub

@@ -34,17 +34,17 @@ public final class R {
         private id() {}
 
         public static final int back_button = 0x7f090021;
-        public static final int divider = 0x7f090048;
-        public static final int transition_bottom_frame = 0x7f0900d6;
-        public static final int transition_frame = 0x7f0900d8;
-        public static final int transition_icon = 0x7f0900d9;
-        public static final int transition_question_text = 0x7f0900dc;
-        public static final int transition_switch_action = 0x7f0900de;
-        public static final int transition_text = 0x7f0900df;
-        public static final int transition_top_frame = 0x7f0900e0;
-        public static final int ui_alignment_marker = 0x7f0900e2;
-        public static final int ui_back_button = 0x7f0900e3;
-        public static final int ui_settings_button = 0x7f0900e5;
+        public static final int divider = 0x7f090044;
+        public static final int transition_bottom_frame = 0x7f0900d2;
+        public static final int transition_frame = 0x7f0900d4;
+        public static final int transition_icon = 0x7f0900d5;
+        public static final int transition_question_text = 0x7f0900d8;
+        public static final int transition_switch_action = 0x7f0900da;
+        public static final int transition_text = 0x7f0900db;
+        public static final int transition_top_frame = 0x7f0900dc;
+        public static final int ui_alignment_marker = 0x7f0900de;
+        public static final int ui_back_button = 0x7f0900df;
+        public static final int ui_settings_button = 0x7f0900e1;
     }
     public static final class layout {
         private layout() {}
