@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.vr:sdk-panowidget:1.80.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d8cadae3af5e15c2323d15cc6a4eb6a/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d8cadae3af5e15c2323d15cc6a4eb6a/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aaf9f600d756f5a623b3fe629c8b40cf/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/aaf9f600d756f5a623b3fe629c8b40cf/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -1,0 +1,5 @@
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/release/arm64-v8a/CMakeFiles/cardboard_device_proto.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/release/arm64-v8a/CMakeFiles/cardboard_v1_jni.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/release/arm64-v8a/CMakeFiles/cardboard_api.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir

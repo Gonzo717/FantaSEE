@@ -1,0 +1,5 @@
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86/CMakeFiles/cardboard_device_proto.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86/CMakeFiles/cardboard_v1_jni.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86/CMakeFiles/cardboard_api.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir

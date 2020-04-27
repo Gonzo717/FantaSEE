@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/lyu/Desktop/FantaSEE/fantasee/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "outputFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\fantasee\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v19\\values-v19.xml",
             "map": [
                 {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/e6cc78971f3e859457ba9901fe261e42/res/values-v19/values.xml",
+                    "source": "C:\\Users\\gonza\\.gradle\\caches\\transforms-2\\files-2.1\\c8a21d11bfad6fac36e59f12102b4417\\res\\values-v19\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

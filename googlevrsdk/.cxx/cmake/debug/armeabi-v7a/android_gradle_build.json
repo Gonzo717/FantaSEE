@@ -1,0 +1,215 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"cardboard_api-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "cardboard_api",
+			"buildCommand" : "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\debug\\armeabi-v7a --target cardboard_api",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/cardboard.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/distortion_mesh.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/distortion_renderer.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/head_tracker.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/lens_distortion.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/polynomial_radial_distortion.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/gyroscope_bias_estimator.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/lowpass_filter.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/mean_filter.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/median_filter.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/neck_model.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/pose_prediction.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/sensor_fusion_ekf.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/android/device_accelerometer_sensor.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/android/device_gyroscope_sensor.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/sensors/android/sensor_event_producer.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/util/matrix_3x3.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/util/matrix_4x4.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/util/matrixutils.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/util/rotation.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/util/vectorutils.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/qrcode/android/qr_code.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/screen_params/android/screen_params.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/build/intermediates/cmake/debug/obj/armeabi-v7a/libcardboard_api.so",
+			"toolchain" : "698486705"
+		},
+		"cardboard_device_proto-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "cardboard_device_proto",
+			"buildCommand" : "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\debug\\armeabi-v7a --target cardboard_device_proto",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_device_proto_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/proto/cardboard_device.pb.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/build/intermediates/cmake/debug/obj/armeabi-v7a/libcardboard_device_proto.so",
+			"toolchain" : "698486705"
+		},
+		"cardboard_v1_jni-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "cardboard_v1_jni",
+			"buildCommand" : "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\debug\\armeabi-v7a --target cardboard_v1_jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_v1_jni_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/qrcode/android/jni/qrcode_jni.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_v1_jni_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/qrcode/cardboard_v1/cardboard_v1.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/.cxx/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/googlevrsdk/build/intermediates/cmake/debug/obj/armeabi-v7a/libcardboard_v1_jni.so",
+			"toolchain" : "698486705"
+		}
+	},
+	"toolchains" : 
+	{
+		"698486705" : 
+		{
+			"cCompilerExecutable" : "C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/gonza/AppData/Local/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

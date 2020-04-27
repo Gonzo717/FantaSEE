@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "886453493688",
+    "firebase_url": "https://fantasee-cda96.firebaseio.com",
+    "project_id": "fantasee-cda96",
+    "storage_bucket": "fantasee-cda96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886453493688:android:8af62e474938078455f94d",
+        "android_client_info": {
+          "package_name": "com.google.cardboard.hellocardboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886453493688-n6l8m36je62mme1bsb0bs99aqo3lo7je.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsNvgkBs80_q2cLOGMAifocykOBmykyyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886453493688-n6l8m36je62mme1bsb0bs99aqo3lo7je.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

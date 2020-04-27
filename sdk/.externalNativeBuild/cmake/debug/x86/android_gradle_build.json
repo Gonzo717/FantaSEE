@@ -1,0 +1,215 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\sdk\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"cardboard_api-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "cardboard_api",
+			"buildCommand" : "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\sdk\\.externalNativeBuild\\cmake\\debug\\x86 --target cardboard_api",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/cardboard.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/distortion_mesh.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/distortion_renderer.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/head_tracker.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/lens_distortion.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/polynomial_radial_distortion.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/gyroscope_bias_estimator.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/lowpass_filter.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/mean_filter.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/median_filter.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/neck_model.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/pose_prediction.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/sensor_fusion_ekf.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/android/device_accelerometer_sensor.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/android/device_gyroscope_sensor.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/sensors/android/sensor_event_producer.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/util/matrix_3x3.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/util/matrix_4x4.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/util/matrixutils.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/util/rotation.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/util/vectorutils.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/qrcode/android/qr_code.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_api_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/screen_params/android/screen_params.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/build/intermediates/cmake/debug/obj/x86/libcardboard_api.so",
+			"toolchain" : "2051688357"
+		},
+		"cardboard_device_proto-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "cardboard_device_proto",
+			"buildCommand" : "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\sdk\\.externalNativeBuild\\cmake\\debug\\x86 --target cardboard_device_proto",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_device_proto_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/proto/cardboard_device.pb.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/build/intermediates/cmake/debug/obj/x86/libcardboard_device_proto.so",
+			"toolchain" : "2051688357"
+		},
+		"cardboard_v1_jni-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "cardboard_v1_jni",
+			"buildCommand" : "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\sdk\\.externalNativeBuild\\cmake\\debug\\x86 --target cardboard_v1_jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_v1_jni_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/qrcode/android/jni/qrcode_jni.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_v1_jni_EXPORTS -I..\\..\\..\\..\\. -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto -IC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\proto\\libprotobuf\\android\\include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/qrcode/cardboard_v1/cardboard_v1.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/build/intermediates/cmake/debug/obj/x86/libcardboard_v1_jni.so",
+			"toolchain" : "2051688357"
+		}
+	},
+	"toolchains" : 
+	{
+		"2051688357" : 
+		{
+			"cCompilerExecutable" : "C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

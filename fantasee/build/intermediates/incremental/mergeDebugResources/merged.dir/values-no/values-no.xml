@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="fui_error_weak_password"> <item quantity="one">Passordet er ikke sterkt nok. Bruk minst %1$d tegn og en blanding av bokstaver og tall</item> <item quantity="other">Passordet er ikke sterkt nok. Bruk minst %1$d tegn og en blanding av bokstaver og tall</item> </plurals>
+    <string msgid="233061162317617848" name="back_button_content_description">"tilbake"</string>
+    <string msgid="2401572676578172896" name="cancel_button">"Avbryt"</string>
+    <string msgid="2482357845034618478" name="dialog_button_got_it">"GREIT"</string>
+    <string msgid="4505853433204459373" name="dialog_button_open_help_center">"ÅPNE BRUKERSTØTTEN"</string>
+    <string msgid="4028688231551615655" name="dialog_message_incompatible_phone">"Du må ha en Daydream-kompatibel telefon. Gå til brukerstøtten for Daydream for mer informasjon."</string>
+    <string msgid="3560856374975640601" name="dialog_message_no_cardboard">"Skaff deg Cardboard-appen for å konfigurere brillene dine."</string>
+    <string msgid="7887077605817014784" name="dialog_title">"Konfigurer"</string>
+    <string msgid="4515090705573059650" name="dialog_title_incompatible_phone">"Inkompatibel telefon"</string>
+    <string msgid="2594928940370730859" name="dialog_title_vr_core_not_enabled">"Konfigurering kreves"</string>
+    <string msgid="6322165810291059770" name="dialog_title_vr_core_not_installed">"Installasjon kreves"</string>
+    <string msgid="455961049302726493" name="dialog_title_warning">"Advarsel"</string>
+    <string msgid="1966424794507569244" name="dialog_vr_core_not_enabled">"Det er ikke sikkert at denne appen fungerer som den skal hvis du ikke slår på Google VR-tjenester. Slå dem på i telefoninnstillingene før du fortsetter."</string>
+    <string msgid="7122144659930752678" name="dialog_vr_core_not_installed">"Det er ikke sikkert at denne appen fungerer som den skal uten Google VR-tjenester. Installer Google VR-tjenester fra Play Butikk før du fortsetter."</string>
+    <string name="fui_accessibility_logo">App-logo</string>
+    <string name="fui_auto_verified">Telefonnummeret ble bekreftet automatisk</string>
+    <string name="fui_button_text_save">Lagre</string>
+    <string name="fui_button_text_send">Send</string>
+    <string name="fui_confirm_recovery_body">Følg veiledningen som er sendt til %1$s, for å gjenopprette passordet ditt.</string>
+    <string name="fui_continue_phone_login">Fortsett</string>
+    <string name="fui_email_account_creation_error">Kunne ikke registrere e-postkontoen</string>
+    <string name="fui_email_hint">E-post</string>
+    <string name="fui_enter_confirmation_code">Oppgi den 6-sifrede koden vi sendte til</string>
+    <string name="fui_error_email_does_not_exist">Denne e-postadressen samsvarer ikke med en eksisterende konto</string>
+    <string name="fui_error_invalid_password">Feil passord.</string>
+    <string name="fui_error_quota_exceeded">Kunne ikke bekrefte telefonnummeret ditt</string>
+    <string name="fui_error_session_expired">Denne koden er ikke lenger gyldig</string>
+    <string name="fui_error_too_many_attempts">Dette telefonnummeret er brukt for mange ganger</string>
+    <string name="fui_error_unknown">Det oppsto en ukjent feil.</string>
+    <string name="fui_idp_name_facebook">Facebook</string>
+    <string name="fui_idp_name_github">GitHub</string>
+    <string name="fui_idp_name_google">Google</string>
+    <string name="fui_idp_name_twitter">Twitter</string>
+    <string name="fui_incorrect_code_dialog_body">Feil kode. Prøv på nytt.</string>
+    <string name="fui_invalid_email_address">E-postadressen er ikke riktig</string>
+    <string name="fui_invalid_phone_number">Oppgi et gyldig telefonnummer</string>
+    <string name="fui_missing_email_address">Oppgi e-postadressen din for å fortsette</string>
+    <string name="fui_name_hint">Fornavn og etternavn</string>
+    <string name="fui_next_default">Neste</string>
+    <string name="fui_password_hint">Passord</string>
+    <string name="fui_password_recovery_body">Få instruksjoner sendt til denne e-postadressen for hvordan du tilbakestiller passordet ditt.</string>
+    <string name="fui_phone_hint">Telefonnummer</string>
+    <string name="fui_privacy_policy">Personvernregler</string>
+    <string name="fui_progress_dialog_checking_accounts">Ser etter eksisterende kontoer…</string>
+    <string name="fui_progress_dialog_loading">Laster inn…</string>
+    <string name="fui_progress_dialog_sending">Sender…</string>
+    <string name="fui_progress_dialog_signing_in">Logger på…</string>
+    <string name="fui_progress_dialog_signing_up">Registrerer…</string>
+    <string name="fui_required_field">Du må fylle ut dette feltet.</string>
+    <string name="fui_resend_code">Send koden på nytt</string>
+    <string name="fui_resend_code_in">Send koden på nytt om 0:%02d</string>
+    <string name="fui_sign_in_anonymously">Fortsett som gjest</string>
+    <string name="fui_sign_in_default">Logg på</string>
+    <string name="fui_sign_in_with_email">Logg på med e-postadresse</string>
+    <string name="fui_sign_in_with_facebook">Logg på med Facebook</string>
+    <string name="fui_sign_in_with_github">Logg på med GitHub</string>
+    <string name="fui_sign_in_with_google">Logg på med Google</string>
+    <string name="fui_sign_in_with_phone">Logg på med telefonnummeret ditt</string>
+    <string name="fui_sign_in_with_phone_number">Logg på med telefonnummer</string>
+    <string name="fui_sign_in_with_twitter">Logg på med Twitter</string>
+    <string name="fui_sms_terms_of_service">Når du trykker på «%1$s», kan det bli sendt en SMS. Kostnader for meldinger og datatrafikk kan påløpe.</string>
+    <string name="fui_sms_terms_of_service_and_privacy_policy_extended">Ved å trykke på «%1$s» godtar du %2$s og %3$s våre. Du kan bli tilsendt en SMS. Kostnader for meldinger og datatrafikk kan påløpe.</string>
+    <string name="fui_terms_of_service">vilkårene</string>
+    <string name="fui_title_confirm_recover_password">Sjekk e-posten din</string>
+    <string name="fui_title_recover_password_activity">Gjenopprett passordet</string>
+    <string name="fui_title_register_email">Registrering</string>
+    <string name="fui_tos_and_pp">Ved å fortsette godtar du %1$s og %2$s våre.</string>
+    <string name="fui_tos_and_pp_footer">%1$s \u00A0 \u00A0 %2$s</string>
+    <string name="fui_trouble_signing_in">Har du problemer med å logge på?</string>
+    <string name="fui_verify_phone_number">Bekreft telefonnummeret</string>
+    <string name="fui_verify_phone_number_title">Oppgi telefonnummeret ditt</string>
+    <string name="fui_verify_your_phone_title">Bekreft telefonnummeret ditt</string>
+    <string name="fui_verifying">Bekrefter…</string>
+    <string name="fui_welcome_back_email_header">Velkommen tilbake!</string>
+    <string name="fui_welcome_back_idp_header">Du har allerede en konto</string>
+    <string name="fui_welcome_back_idp_prompt">Du har allerede brukt %1$s. Logg på med %2$s for å fortsette.</string>
+    <string name="fui_welcome_back_password_prompt_body">Du har allerede brukt %1$s for å logge på. Angi passordet ditt for denne kontoen.</string>
+    <string msgid="6145412853379876634" name="go_to_playstore_button">"Gå til Play Butikk"</string>
+    <string msgid="6878752668266068283" name="go_to_vr_listeners_settings_button">"Gå til Innstillinger"</string>
+    <string msgid="5324772199357788720" name="no_browser_text">"Finner ingen nettleser som kan åpne nettstedet"</string>
+    <string msgid="2306297166333705530" name="place_your_phone_into_cardboard">"Sett inn telefonen i Cardboard-brillene"</string>
+    <string msgid="5433369525545709510" name="place_your_viewer_into_viewer_format">"Sett inn telefonen i <ns1:g id="VIEWER_NAME">%s</ns1:g>-brillene"</string>
+    <string msgid="3719682527828378500" name="settings_button_content_description">"innstillinger"</string>
+    <string msgid="20964482303479393" name="setup_button">"Konfigurer"</string>
+    <string msgid="7856245902137004584" name="switch_viewer_action">"Bytt"</string>
+    <string msgid="816514297101696447" name="switch_viewer_prompt">"Bruker du andre briller?"</string>
+</resources>

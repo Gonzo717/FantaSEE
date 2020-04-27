@@ -1,0 +1,3 @@
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/cardboard_jni.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir

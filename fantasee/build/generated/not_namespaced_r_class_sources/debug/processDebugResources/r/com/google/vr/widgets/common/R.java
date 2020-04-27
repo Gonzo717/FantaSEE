@@ -13,93 +13,93 @@ public final class R {
         private color() {}
 
         public static final int alignment_marker_color = 0x7f05001a;
-        public static final int white_transparent = 0x7f050092;
+        public static final int white_transparent = 0x7f0500a2;
     }
     public static final class dimen {
         private dimen() {}
 
         public static final int alignment_marker_height = 0x7f06004b;
         public static final int alignment_marker_thickness = 0x7f06004c;
-        public static final int button_padding = 0x7f06004d;
-        public static final int transition_bottom_bar_height = 0x7f0600da;
+        public static final int button_padding = 0x7f06004f;
+        public static final int transition_bottom_bar_height = 0x7f0600e7;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int quantum_ic_cardboard_white_24 = 0x7f07008b;
-        public static final int quantum_ic_close_white_24 = 0x7f07008c;
-        public static final int quantum_ic_fullscreen_white_24 = 0x7f07008d;
-        public static final int quantum_ic_info_white_24 = 0x7f07008e;
-        public static final int quantum_ic_settings_white_24 = 0x7f07008f;
-        public static final int rippleable = 0x7f070090;
-        public static final int transition = 0x7f070094;
+        public static final int quantum_ic_cardboard_white_24 = 0x7f070099;
+        public static final int quantum_ic_close_white_24 = 0x7f07009a;
+        public static final int quantum_ic_fullscreen_white_24 = 0x7f07009b;
+        public static final int quantum_ic_info_white_24 = 0x7f07009c;
+        public static final int quantum_ic_settings_white_24 = 0x7f07009d;
+        public static final int rippleable = 0x7f07009e;
+        public static final int transition = 0x7f0700a2;
     }
     public static final class id {
         private id() {}
 
-        public static final int back_button = 0x7f080022;
-        public static final int control_layout = 0x7f080035;
-        public static final int divider = 0x7f080044;
-        public static final int fullscreen_back_button = 0x7f080054;
-        public static final int fullscreen_button = 0x7f080055;
-        public static final int info_button = 0x7f080062;
-        public static final int transition_bottom_frame = 0x7f0800cd;
-        public static final int transition_frame = 0x7f0800cf;
-        public static final int transition_icon = 0x7f0800d0;
-        public static final int transition_question_text = 0x7f0800d3;
-        public static final int transition_switch_action = 0x7f0800d5;
-        public static final int transition_text = 0x7f0800d6;
-        public static final int transition_top_frame = 0x7f0800d7;
-        public static final int ui_alignment_marker = 0x7f0800d9;
-        public static final int ui_back_button = 0x7f0800da;
-        public static final int ui_settings_button = 0x7f0800dc;
-        public static final int vr_mode_button = 0x7f0800e5;
-        public static final int vrwidget_inner_view = 0x7f0800e6;
+        public static final int back_button = 0x7f080023;
+        public static final int control_layout = 0x7f080041;
+        public static final int divider = 0x7f080051;
+        public static final int fullscreen_back_button = 0x7f080069;
+        public static final int fullscreen_button = 0x7f08006a;
+        public static final int info_button = 0x7f08007a;
+        public static final int transition_bottom_frame = 0x7f0800f5;
+        public static final int transition_frame = 0x7f0800f7;
+        public static final int transition_icon = 0x7f0800f8;
+        public static final int transition_question_text = 0x7f0800fb;
+        public static final int transition_switch_action = 0x7f0800fd;
+        public static final int transition_text = 0x7f0800fe;
+        public static final int transition_top_frame = 0x7f0800ff;
+        public static final int ui_alignment_marker = 0x7f080102;
+        public static final int ui_back_button = 0x7f080103;
+        public static final int ui_settings_button = 0x7f080105;
+        public static final int vr_mode_button = 0x7f08010e;
+        public static final int vrwidget_inner_view = 0x7f08010f;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int back_button = 0x7f0b001d;
-        public static final int settings_button = 0x7f0b0041;
-        public static final int transition_view = 0x7f0b0043;
-        public static final int ui_layer = 0x7f0b0044;
-        public static final int ui_layer_with_portrait_support = 0x7f0b0045;
-        public static final int ui_view_embed = 0x7f0b0046;
+        public static final int back_button = 0x7f0b001e;
+        public static final int settings_button = 0x7f0b004e;
+        public static final int transition_view = 0x7f0b0050;
+        public static final int ui_layer = 0x7f0b0051;
+        public static final int ui_layer_with_portrait_support = 0x7f0b0052;
+        public static final int ui_view_embed = 0x7f0b0053;
     }
     public static final class string {
         private string() {}
 
-        public static final int back_button_content_description = 0x7f0d0029;
-        public static final int cancel_button = 0x7f0d002b;
-        public static final int dialog_button_got_it = 0x7f0d0042;
-        public static final int dialog_button_open_help_center = 0x7f0d0043;
-        public static final int dialog_message_incompatible_phone = 0x7f0d0044;
-        public static final int dialog_message_no_cardboard = 0x7f0d0045;
-        public static final int dialog_title = 0x7f0d0046;
-        public static final int dialog_title_incompatible_phone = 0x7f0d0047;
-        public static final int dialog_title_vr_core_not_enabled = 0x7f0d0048;
-        public static final int dialog_title_vr_core_not_installed = 0x7f0d0049;
-        public static final int dialog_title_warning = 0x7f0d004a;
-        public static final int dialog_vr_core_not_enabled = 0x7f0d004b;
-        public static final int dialog_vr_core_not_installed = 0x7f0d004c;
-        public static final int go_to_playstore_button = 0x7f0d004f;
-        public static final int go_to_vr_listeners_settings_button = 0x7f0d0050;
-        public static final int gvr_vr_mode_component = 0x7f0d0051;
-        public static final int no_browser_text = 0x7f0d0057;
-        public static final int place_your_phone_into_cardboard = 0x7f0d005e;
-        public static final int place_your_viewer_into_viewer_format = 0x7f0d005f;
-        public static final int settings_button_content_description = 0x7f0d0062;
-        public static final int setup_button = 0x7f0d0063;
-        public static final int switch_viewer_action = 0x7f0d0067;
-        public static final int switch_viewer_prompt = 0x7f0d0068;
+        public static final int back_button_content_description = 0x7f0e0029;
+        public static final int cancel_button = 0x7f0e002b;
+        public static final int dialog_button_got_it = 0x7f0e0044;
+        public static final int dialog_button_open_help_center = 0x7f0e0045;
+        public static final int dialog_message_incompatible_phone = 0x7f0e0046;
+        public static final int dialog_message_no_cardboard = 0x7f0e0047;
+        public static final int dialog_title = 0x7f0e0048;
+        public static final int dialog_title_incompatible_phone = 0x7f0e0049;
+        public static final int dialog_title_vr_core_not_enabled = 0x7f0e004a;
+        public static final int dialog_title_vr_core_not_installed = 0x7f0e004b;
+        public static final int dialog_title_warning = 0x7f0e004c;
+        public static final int dialog_vr_core_not_enabled = 0x7f0e004d;
+        public static final int dialog_vr_core_not_installed = 0x7f0e004e;
+        public static final int go_to_playstore_button = 0x7f0e009b;
+        public static final int go_to_vr_listeners_settings_button = 0x7f0e009c;
+        public static final int gvr_vr_mode_component = 0x7f0e00a1;
+        public static final int no_browser_text = 0x7f0e00a7;
+        public static final int place_your_phone_into_cardboard = 0x7f0e00ae;
+        public static final int place_your_viewer_into_viewer_format = 0x7f0e00af;
+        public static final int settings_button_content_description = 0x7f0e00b3;
+        public static final int setup_button = 0x7f0e00b4;
+        public static final int switch_viewer_action = 0x7f0e00b8;
+        public static final int switch_viewer_prompt = 0x7f0e00b9;
     }
     public static final class style {
         private style() {}
 
-        public static final int ControlButton = 0x7f0e00c6;
-        public static final int GvrDialogTheme = 0x7f0e00c7;
-        public static final int NoSystemUI = 0x7f0e00c8;
-        public static final int UiButton = 0x7f0e017f;
-        public static final int VrActivityTheme = 0x7f0e0180;
+        public static final int ControlButton = 0x7f0f00c6;
+        public static final int GvrDialogTheme = 0x7f0f00f4;
+        public static final int NoSystemUI = 0x7f0f00f5;
+        public static final int UiButton = 0x7f0f01a7;
+        public static final int VrActivityTheme = 0x7f0f01a8;
     }
 }

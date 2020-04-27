@@ -1,0 +1,53 @@
+
+{
+	"buildFiles" : 
+	[
+		"C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\fantasee\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cc" ],
+	"libraries" : 
+	{
+		"cardboard_jni-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "cardboard_jni",
+			"buildCommand" : "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\fantasee\\.externalNativeBuild\\cmake\\release\\x86_64 --target cardboard_jni",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_jni_EXPORTS -I..\\..\\..\\..\\libraries  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/src/main/jni/hello_cardboard_app.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_jni_EXPORTS -I..\\..\\..\\..\\libraries  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/src/main/jni/hello_cardboard_jni.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/.externalNativeBuild/cmake/release/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dcardboard_jni_EXPORTS -I..\\..\\..\\..\\libraries  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=gnu++11 -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/src/main/jni/util.cc",
+					"workingDirectory" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/fantasee/build/intermediates/cmake/release/obj/x86_64/libcardboard_jni.so",
+			"toolchain" : "2051688357"
+		}
+	},
+	"toolchains" : 
+	{
+		"2051688357" : 
+		{
+			"cCompilerExecutable" : "C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/gonza/AppData/Local/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

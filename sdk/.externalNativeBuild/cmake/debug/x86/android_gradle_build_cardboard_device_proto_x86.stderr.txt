@@ -1,0 +1,1 @@
+ninja: error: 'C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/proto/libprotobuf/android/lib/x86/libprotobuf-lite.a', needed by '../../../../build/intermediates/cmake/debug/obj/x86/libcardboard_device_proto.so', missing and no known rule to make it

@@ -1,0 +1,17 @@
+Executable : C:\Users\gonza\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
+arguments : 
+-HC:\Users\gonza\OneDrive\Documents\AndroidProjects\FantaSEE\sdk
+-BC:\Users\gonza\OneDrive\Documents\AndroidProjects\FantaSEE\sdk\.externalNativeBuild\cmake\release\x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\gonza\OneDrive\Documents\AndroidProjects\FantaSEE\sdk\build\intermediates\cmake\release\obj\x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=C:\Users\gonza\AppData\Local\Android\Sdk\ndk-bundle
+-DCMAKE_CXX_FLAGS=-std=gnu++11
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\gonza\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\gonza\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
+-GAndroid Gradle - Ninja
+-DANDROID_STL=c++_shared
+-DPROTO_PATH:PATH=C:\Users\gonza\OneDrive\Documents\AndroidProjects\FantaSEE/proto
+jvmArgs : 
+

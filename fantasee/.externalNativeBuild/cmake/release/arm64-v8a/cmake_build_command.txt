@@ -1,15 +1,15 @@
-Executable : /Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+Executable : C:\Users\gonza\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
--H/Users/lyu/Desktop/FantaSEE/fantasee
--B/Users/lyu/Desktop/FantaSEE/fantasee/.externalNativeBuild/cmake/release/arm64-v8a
+-HC:\Users\gonza\OneDrive\Documents\AndroidProjects\FantaSEE\fantasee
+-BC:\Users\gonza\OneDrive\Documents\AndroidProjects\FantaSEE\fantasee\.externalNativeBuild\cmake\release\arm64-v8a
 -DANDROID_ABI=arm64-v8a
 -DANDROID_PLATFORM=android-21
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/Users/lyu/Desktop/FantaSEE/fantasee/build/intermediates/cmake/release/obj/arm64-v8a
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\gonza\OneDrive\Documents\AndroidProjects\FantaSEE\fantasee\build\intermediates\cmake\release\obj\arm64-v8a
 -DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=/Users/lyu/Library/Android/sdk/ndk-bundle
+-DANDROID_NDK=C:\Users\gonza\AppData\Local\Android\Sdk\ndk-bundle
 -DCMAKE_CXX_FLAGS=-std=gnu++11
--DCMAKE_TOOLCHAIN_FILE=/Users/lyu/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=/Users/lyu/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\gonza\AppData\Local\Android\Sdk\ndk-bundle\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\gonza\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\ninja.exe
 -GAndroid Gradle - Ninja
 -DANDROID_STL=c++_shared
 jvmArgs : 

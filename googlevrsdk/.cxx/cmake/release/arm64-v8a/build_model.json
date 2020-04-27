@@ -1,0 +1,73 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE",
+      "sdkFolder": "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\build\\intermediates",
+      "gradleModulePathName": ":googlevrsdk",
+      "moduleRootFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk",
+      "makeFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\.cxx",
+      "cxxFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx",
+      "ndkFolder": "C:\\Users\\gonza\\AppData\\Local\\Android\\Sdk\\ndk\\21.0.6113669",
+      "ndkVersion": "21.0.6113669",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared",
+      "-DPROTO_PATH:PATH\u003dC:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE/proto"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-std\u003dgnu++11"
+    ],
+    "variantName": "release",
+    "soFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 21,
+  "cxxBuildFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release\\arm64-v8a",
+  "jsonFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a",
+  "objFolder": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a",
+  "buildCommandFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cxx\\release\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Users\\gonza\\OneDrive\\Documents\\AndroidProjects\\FantaSEE\\googlevrsdk\\.cxx\\cmake\\release\\arm64-v8a\\compile_commands.json"
+}

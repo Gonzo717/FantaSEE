@@ -1,5 +1,5 @@
-/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/cardboard_api.dir
-/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/cardboard_v1_jni.dir
-/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/lyu/Desktop/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/cardboard_device_proto.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/cardboard_device_proto.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/cardboard_v1_jni.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/cardboard_api.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/gonza/OneDrive/Documents/AndroidProjects/FantaSEE/sdk/.externalNativeBuild/cmake/debug/arm64-v8a/CMakeFiles/rebuild_cache.dir
