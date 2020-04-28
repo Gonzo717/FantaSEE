@@ -12,3 +12,6 @@ To install:  Tools > SDK Manager or click SDK Manager > enable google play servi
 
 # Bug
 - App won't run on emulator, must use physical device to test!
+
+# NOTE
+- Oauth will not work since we must add your SHA1 key to our Firebase Console, send us your SHA1 key to test Oauth
