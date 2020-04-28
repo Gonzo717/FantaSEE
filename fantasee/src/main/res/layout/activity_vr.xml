@@ -3,11 +3,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<!--    <android.opengl.GLSurfaceView-->
-<!--        android:id="@+id/surface_view"-->
-<!--        android:layout_width="fill_parent"-->
-<!--        android:layout_height="fill_parent"-->
-<!--        android:layout_gravity="top"/>-->
     <com.google.vr.sdk.widgets.pano.VrPanoramaView
         android:id="@+id/vrPanoramaView"
         android:layout_width="match_parent"

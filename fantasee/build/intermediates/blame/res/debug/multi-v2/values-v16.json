@@ -4,17 +4,7 @@
             "outputFile": "/Users/lyu/Desktop/FantaSEE/fantasee/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/b73d0db3c489aeab8b531c92b0313ef9/support-compat-28.0.0/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/7f5f0b3369d8fa8a72a20e2278ec0acc/appcompat-v7-28.0.0/res/values-v16/values-v16.xml",
+                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/7df26908078c74ff4eeaf46e7b6b476c/appcompat-1.0.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/lyu/.gradle/caches/transforms-2/files-2.1/246153fc0686d4ff78c8961ca91329b7/core-1.0.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
