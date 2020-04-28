@@ -52,6 +52,8 @@ dependencies {
     implementation 'com.google.firebase:firebase-auth:17.0.0'
     implementation 'com.firebaseui:firebase-ui-auth:4.2.0'
     implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+
 }
 
 // The dependencies for NDK builds live inside the .aar files so they need to
