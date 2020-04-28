@@ -1,0 +1,3 @@
+[1/3] Building CXX object CMakeFiles/cardboard_jni.dir/src/main/jni/hello_cardboard_app.cc.o
+[2/3] Building CXX object CMakeFiles/cardboard_jni.dir/src/main/jni/hello_cardboard_jni.cc.o
+[3/3] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libcardboard_jni.so

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FantaSEE.iml" filepath="$PROJECT_DIR$/FantaSEE.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fantasee/fantasee.iml" filepath="$PROJECT_DIR$/fantasee/fantasee.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FantaSEE.iml" filepath="$PROJECT_DIR$/FantaSEE.iml" group="FantaSEE" />
+      <module fileurl="file://$PROJECT_DIR$/fantasee/fantasee.iml" filepath="$PROJECT_DIR$/fantasee/fantasee.iml" group="FantaSEE/fantasee" />
+      <module fileurl="file://$PROJECT_DIR$/sdk/sdk.iml" filepath="$PROJECT_DIR$/sdk/sdk.iml" group="FantaSEE/sdk" />
     </modules>
   </component>
 </project>

@@ -188,13 +188,13 @@ public class MainActivity extends AppCompatActivity implements PopupMenu.OnMenuI
 
 
     private void loadPhotoSphere() {
+        AssetManager assetManager = getAssets();
+        try {
         Intent intent = getIntent();
         String fileName = intent.getStringExtra("fileName");
         VrPanoramaView.Options options = new VrPanoramaView.Options();
+        Log.e("vr activity: ", fileName);
         InputStream inputStream = null;
-
-        AssetManager assetManager = getAssets();
-        try {
             inputStream = assetManager.open(fileName);
             options.inputType = VrPanoramaView.Options.TYPE_MONO;
             mVrPanoramaView.loadImageFromBitmap(BitmapFactory.decodeStream(inputStream), options);

@@ -2,7 +2,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="app_name" description="Application name. [CHAR_LIMIT=30]">
             FantaSEE</string>
-
+    <string name="title_activity_signin" descriptioin="Sign in activity title. [CHAR_LIMIT=30]">
+            Sign-in Activity </string>
     <!-- Strings present in 'VR' activity -->
     <string name="title_activity_vr" description="VR activity title. [CHAR_LIMIT=30]">
             VR Activity </string>
@@ -25,7 +26,6 @@
     <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
     <string name="location_permission_denied">This app requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
     <string name="permission_required_toast">Location permission is required for this app.</string>
-
 
 
     <string name="demo_title">Google Maps API Demos</string>
@@ -247,4 +247,14 @@
     <string name="style_label_default">Default</string>
     <string name="style_choose">Choose style</string>
     <string name="style_set_to">Style set to: %1$s</string>
+    <string name="title_activity_sign_in">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_upload">Upload and Download Activity</string>
 </resources>

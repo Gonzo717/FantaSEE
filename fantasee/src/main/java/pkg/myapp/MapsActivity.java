@@ -208,6 +208,7 @@ public class MapsActivity extends AppCompatActivity
                 (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
 //        mapFragment.getMapAsync(this);
         new OnMapAndViewReadyListener(mapFragment, this);
+
         btnViewInVR = (Button) findViewById(R.id.btnViewInVR);
         btnViewInVR.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -220,6 +221,7 @@ public class MapsActivity extends AppCompatActivity
     public void viewInVR(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("filename", mLastSelectedMarker.getTitle()+".jpg");
+        Log.e("File name", mLastSelectedMarker.getTitle()+".jpg");
         startActivity(intent);
     }
 
@@ -258,6 +260,10 @@ public class MapsActivity extends AppCompatActivity
 
         // Uses a custom icon with the info window popping out of the center of the icon.
         try {
+            Intent intent = getIntent();
+            if (intent != null) {
+//                Bitmap bitmap = (Bitmap) intent.getStringExtra("bitmap");
+            }
             InputStream is = assetManager.open("CQC.jpg");
 
             mBrisbane = mMap.addMarker(new MarkerOptions()

@@ -1,1 +1,24 @@
-ninja: no work to do.
+[1/24] Building CXX object CMakeFiles/cardboard_api.dir/cardboard.cc.o
+[2/24] Building CXX object CMakeFiles/cardboard_api.dir/distortion_mesh.cc.o
+[3/24] Building CXX object CMakeFiles/cardboard_api.dir/distortion_renderer.cc.o
+[4/24] Building CXX object CMakeFiles/cardboard_api.dir/head_tracker.cc.o
+[5/24] Building CXX object CMakeFiles/cardboard_api.dir/lens_distortion.cc.o
+[6/24] Building CXX object CMakeFiles/cardboard_api.dir/polynomial_radial_distortion.cc.o
+[7/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/gyroscope_bias_estimator.cc.o
+[8/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/lowpass_filter.cc.o
+[9/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/mean_filter.cc.o
+[10/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/median_filter.cc.o
+[11/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/neck_model.cc.o
+[12/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/pose_prediction.cc.o
+[13/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/sensor_fusion_ekf.cc.o
+[14/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/android/device_accelerometer_sensor.cc.o
+[15/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/android/device_gyroscope_sensor.cc.o
+[16/24] Building CXX object CMakeFiles/cardboard_api.dir/sensors/android/sensor_event_producer.cc.o
+[17/24] Building CXX object CMakeFiles/cardboard_api.dir/util/matrix_3x3.cc.o
+[18/24] Building CXX object CMakeFiles/cardboard_api.dir/util/matrix_4x4.cc.o
+[19/24] Building CXX object CMakeFiles/cardboard_api.dir/util/matrixutils.cc.o
+[20/24] Building CXX object CMakeFiles/cardboard_api.dir/util/rotation.cc.o
+[21/24] Building CXX object CMakeFiles/cardboard_api.dir/util/vectorutils.cc.o
+[22/24] Building CXX object CMakeFiles/cardboard_api.dir/qrcode/android/qr_code.cc.o
+[23/24] Building CXX object CMakeFiles/cardboard_api.dir/screen_params/android/screen_params.cc.o
+[24/24] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libcardboard_api.so

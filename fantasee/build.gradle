@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-
+apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 28
     defaultConfig {
@@ -13,7 +13,6 @@ android {
             abiFilters 'armeabi-v7a', 'arm64-v8a'
 //            abiFilters "armeabi-v7a", "x86", "arm64-v8a", "x86_64"
 //            abiFilters.clear()
-
         }
 //        splits {
 //            abi {
@@ -57,6 +56,16 @@ dependencies {
     implementation project(":sdk")
     implementation 'com.google.vr:sdk-panowidget:1.80.0'
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    // add the Firebase SDK for Google Analytics
+    implementation 'com.google.firebase:firebase-core:17.4.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.google.firebase:firebase-database:19.2.1'
+    implementation 'com.google.firebase:firebase-auth:17.0.0'
+    implementation 'com.firebaseui:firebase-ui-auth:4.2.0'
+    implementation 'com.google.android.gms:play-services-auth:18.0.0'
+    implementation 'com.google.firebase:firebase-storage:19.1.1'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
 }
 
 // The dependencies for NDK builds live inside the .aar files so they need to

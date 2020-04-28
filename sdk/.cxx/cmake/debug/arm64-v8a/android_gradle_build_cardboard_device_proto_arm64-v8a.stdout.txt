@@ -1,1 +1,2 @@
-ninja: no work to do.
+[1/2] Building CXX object CMakeFiles/cardboard_device_proto.dir/Users/lyu/Desktop/FantaSEE/proto/cardboard_device.pb.cc.o
+[2/2] Linking CXX shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libcardboard_device_proto.so
